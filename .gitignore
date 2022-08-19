@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # build output
 dist/
 
@@ -12,8 +13,27 @@ pnpm-debug.log*
 
 
 # environment variables
+=======
+*.log
+nuxt.d.ts
+
+# private config
+>>>>>>> b17482b (New Initial commit)
 .env
 .env.production
 
+<<<<<<< HEAD
 # macOS-specific files
 .DS_Store
+=======
+# deps
+node_modules
+
+# build or generate
+.nuxt
+dist
+.output
+
+# IDE
+.idea
+>>>>>>> b17482b (New Initial commit)

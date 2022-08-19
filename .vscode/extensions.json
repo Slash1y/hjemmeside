@@ -1,4 +1,12 @@
 {
+<<<<<<< HEAD
   "recommendations": ["astro-build.astro-vscode"],
   "unwantedRecommendations": []
 }
+=======
+    "recommendations": [
+        "Vue.volar",
+        "Nuxt.mdc"
+    ]
+}
+>>>>>>> b17482b (New Initial commit)
