@@ -1,47 +1,28 @@
 {
-  "name": "hjemmeside",
-  "version": "1.0.0",
+  "name": "@example/blog",
+  "type": "module",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
-    "lint": "npm run lint:js",
-    "test": "jest --passWithNoTests"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@luxdamore/vue-cursor-fx": "^1.6.2",
-    "@nuxtjs/axios": "^5.13.6",
-    "@nuxtjs/firebase": "8.2.2",
-    "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/sitemap": "^2.4.0",
-    "@nuxtjs/toast": "^3.3.1",
-    "core-js": "^3.20.0",
-    "firebase": "^9.6.1",
-    "lottie-web": "^5.8.1",
-    "nuxt": "2.15.8",
-    "nuxt-storage": "^1.2.2",
-    "nuxt-webpack-optimisations": "^2.1.2",
-    "particles.vue": "^2.20.5",
-    "vuetify": "2.6.3"
+    "@astrojs/image": "^0.12.1",
+    "@astrojs/mdx": "^0.13.0",
+    "@astrojs/partytown": "^1.0.2",
+    "@astrojs/rss": "^1.2.1",
+    "@astrojs/sitemap": "^1.0.0",
+    "@astrojs/tailwind": "^2.1.3",
+    "astro": "^1.7.2",
+    "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "7.17.0",
-    "@nuxtjs/eslint-config": "^6.0.1",
-    "@nuxtjs/eslint-module": "^3.0.2",
-    "@nuxtjs/vuetify": "^1.12.3",
-    "@vue/test-utils": "^1.2.1",
-    "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "27.4.6",
-    "eslint": "^7.29.0",
-    "eslint-plugin-nuxt": "^3.1.0",
-    "eslint-plugin-vue": "^8.2.0",
-    "jest": "27.4.7",
-    "nuxt-gsap-module": "1.6.0",
-    "sass-loader": "^10.1.1",
-    "vue-jest": "^3.0.4",
-    "webpack": "^4.46.0"
+    "autoprefixer": "^10.4.13",
+    "postcss-scss": "^4.0.6",
+    "sass": "^1.57.0"
   }
 }
