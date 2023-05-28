@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/image': ^0.12.1
   '@astrojs/mdx': ^0.13.0
   '@astrojs/partytown': ^1.0.2
-  '@astrojs/rss': ^1.2.1
+  '@astrojs/rss': ^2.0.0
   '@astrojs/sitemap': ^1.0.0
   '@astrojs/tailwind': ^2.1.3
   astro: ^1.7.2
@@ -17,7 +17,7 @@ dependencies:
   '@astrojs/image': 0.12.1
   '@astrojs/mdx': 0.13.0
   '@astrojs/partytown': 1.0.2
-  '@astrojs/rss': 1.2.1
+  '@astrojs/rss': 2.4.3
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.1.3_tailwindcss@3.2.4
   astro: 1.7.2_sass@1.57.0
@@ -170,10 +170,11 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/rss/1.2.1:
-    resolution: {integrity: sha512-ZgCunS6ECuPpxBznBYE+ONf23rcp+OWZ5IyDKFAcVZCWEq8Bh0rVYa9p8u6cU9WOTK56JRQTuwcVZYndmExNtw==}
+  /@astrojs/rss/2.4.3:
+    resolution: {integrity: sha512-Dc8lxsXiDlnxONVIUuc3ohO1+vV1Hp9fRFdUianOola0S9/xv/6FzIHhkQ62MkaFSlcZm5uIOllRWNKVvuFuoA==}
     dependencies:
       fast-xml-parser: 4.0.12
+      kleur: 4.1.5
     dev: false
 
   /@astrojs/sitemap/1.0.0:
